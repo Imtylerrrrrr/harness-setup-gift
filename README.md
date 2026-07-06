@@ -13,7 +13,7 @@ AI 코딩 에이전트(Claude Code, Codex 등)를 **세팅 없이 날것으로**
 
 ## 시작하기 (3단계)
 
-1. **읽기** — [`index.html`](index.html)을 내려받아 브라우저로 엽니다. (Code → Download ZIP이 제일 쉽습니다)
+1. **읽기** — 가이드 본문: **[imtylerrrrrr.github.io/harness-setup-gift](https://imtylerrrrrr.github.io/harness-setup-gift/)** (클릭하면 끝)
 2. **구경** — [`examples/`](examples/)에서 3층 세팅의 실제 파일 모양을 봅니다.
 3. **따라 하기** — [`exercises/01-글로벌-깔기.md`](exercises/01-글로벌-깔기.md)부터. 첫 층은 5분이면 깔립니다.
 
