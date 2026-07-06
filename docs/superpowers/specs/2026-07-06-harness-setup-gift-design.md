@@ -69,7 +69,7 @@ harness-setup-gift/
 | 0 | 표지 | 담담한 헤드라인 + "AI 세팅이란 게 있다" 한 줄 |
 | 1 | 하네스가 뭔지 | AI에 손발 다는 것 = 하네스. 짧은 개념 소개 |
 | 2 | 세팅 = 렌즈 갈아끼우기 | 줌 렌즈 비유 도입, 중심 SVG 다이어그램 |
-| 3 | 재료 4개 | Skills·Plugins·MCP·Hooks 각 한 줄 (지식이냐 행동이냐) |
+| 3 | 재료 5개 | CLAUDE.md·Skills·Plugins·MCP·Hooks 각 한 줄 (앞의 넷은 "부탁", Hooks는 "강제") |
 | 4 | 🔭 광각 = 글로벌 | `~/.claude`. Karpathy skills 플러그인 설치 시연 (`/plugin marketplace add forrestchang/andrej-karpathy-skills` → `/plugin install`) — 중요 예시 |
 | 5 | 🎯 표준 = 프로젝트 | `프로젝트/.claude` + 공식 마켓플레이스(`/plugin` Discover 탭) + MCP. 도메인 카드: 웹/파이썬/게임(Unity MCP는 가벼운 예시)/AI. 마지막에 "직접 만들어 공개한 실전 스킬 사례" 카드 2장: `Imtylerrrrrr/second-brain`(세션 기록·프로젝트 메모리), `Imtylerrrrrr/TK`(팀 협업 규칙 세팅) |
 | 6 | 🔬 매크로 = 폴더 | 공들이는 부분만 집중 세팅. 가벼운 톤 |
@@ -114,6 +114,6 @@ harness-setup-gift/
 ## 10. 범위 밖 (안 하는 것)
 
 - 해커톤 관련 내용 (별도 전달 예정)
-- Hooks 심화, 서브에이전트 심화 (9번 섹션 포인터로만)
+- Hooks 심화(기본 소개는 3번 섹션에 포함), 서브에이전트 심화 (9번 섹션 포인터로만)
 - 게임엔진 MCP 심화 (Unity MCP는 예시 카드 1장)
 - 배포 자동화, CI 등
