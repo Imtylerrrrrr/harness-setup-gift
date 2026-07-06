@@ -71,7 +71,7 @@ harness-setup-gift/
 | 2 | 세팅 = 렌즈 갈아끼우기 | 줌 렌즈 비유 도입, 중심 SVG 다이어그램 |
 | 3 | 재료 4개 | Skills·Plugins·MCP·Hooks 각 한 줄 (지식이냐 행동이냐) |
 | 4 | 🔭 광각 = 글로벌 | `~/.claude`. Karpathy skills 플러그인 설치 시연 (`/plugin marketplace add forrestchang/andrej-karpathy-skills` → `/plugin install`) — 중요 예시 |
-| 5 | 🎯 표준 = 프로젝트 | `프로젝트/.claude` + 공식 마켓플레이스(`/plugin` Discover 탭) + MCP. 도메인 카드: 웹/파이썬/게임(Unity MCP는 가벼운 예시)/AI |
+| 5 | 🎯 표준 = 프로젝트 | `프로젝트/.claude` + 공식 마켓플레이스(`/plugin` Discover 탭) + MCP. 도메인 카드: 웹/파이썬/게임(Unity MCP는 가벼운 예시)/AI. 마지막에 "직접 만들어 공개한 실전 스킬 사례" 카드 2장: `Imtylerrrrrr/second-brain`(세션 기록·프로젝트 메모리), `Imtylerrrrrr/TK`(팀 협업 규칙 세팅) |
 | 6 | 🔬 매크로 = 폴더 | 공들이는 부분만 집중 세팅. 가벼운 톤 |
 | 7 | 딱 3가지만 조심 | 함정 + 황금률("가장 단순한 것부터") |
 | 8 | 오늘 이것부터 | 마무리 한 문장 + exercises/ 연결 |
