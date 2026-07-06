@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 코딩 세팅 가이드 — 줌 렌즈 3층으로 끝내는 하네스 세팅</title>
+<meta name="description" content="AI 코딩 에이전트 세팅 입문 — 글로벌/프로젝트/폴더 3층으로 배우는 하네스 세팅. 가이드 + 실물 예제 + 실습 3편.">
+<meta property="og:title" content="AI 코딩 세팅 가이드 — 줌 렌즈 3층">
+<meta property="og:description" content="같은 AI를 쓰는데 결과는 왜 다를까. 세팅 3층(글로벌/프로젝트/폴더)으로 한 단계 올라가는 입문 가이드.">
+<meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Gowun+Dodum&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -155,7 +159,7 @@
     <p class="lead">AI에게 코딩을 시키는 것까지는 누구나 합니다. 차이는 <span class="mark">세팅</span>에서 갈립니다.<br>
     규칙 파일 하나, 스킬 하나, 연결 하나 — 이 작은 세팅들이 <span class="em">AI를 "말 잘 듣는 팀원"으로</span> 바꿔 놓습니다.</p>
     <p>이 문서는 그 세팅을 <b>딱 3층</b>으로 정리한 가이드입니다. 터미널을 잘 몰라도 따라올 수 있게 만들었습니다.</p>
-    <p class="src">함께 보기: 이 저장소의 <code>examples/</code>(실제 세팅 파일 모양) · <code>exercises/</code>(따라 하기 3편)</p>
+    <p class="src">함께 보기: <a href="https://github.com/Imtylerrrrrr/harness-setup-gift">GitHub 저장소</a> — <code>examples/</code>(실제 세팅 파일 모양) · <code>exercises/</code>(따라 하기 3편)</p>
   </section>
 
   <!-- 1 하네스 -->
@@ -265,7 +269,7 @@
         <span class="when">예: 코드 고칠 때마다 자동 검사·포맷</span>
       </div>
     </div>
-    <p class="easy" style="margin-top:18px">다섯 개 다 "파일 하나 또는 명령 하나"로 켜집니다. 이제 층별로 — 🔭 광각부터 갑니다.</p>
+    <p class="easy" style="margin-top:18px">다섯 개 다 "파일 하나 또는 명령 하나"로 켜집니다. Codex 등 다른 에이전트도 파일 이름만 다를 뿐(예: AGENTS.md) 원리는 같습니다. 이제 층별로 — 🔭 광각부터 갑니다.</p>
   </section>
 
   <!-- 4 광각 = 글로벌 -->
@@ -316,7 +320,7 @@
         <div class="badge">1</div>
         <div>
           <h3>프로젝트 규칙 — CLAUDE.md</h3>
-          <p style="margin-bottom:0">파일 구조, 실행 방법, 하지 말 것. AI가 이 프로젝트에 들어올 때마다 자동으로 읽습니다.</p>
+          <p style="margin-bottom:0">파일 구조, 실행 방법, 하지 말 것. AI가 이 프로젝트에 들어올 때마다 자동으로 읽습니다. 처음이라면 <code>/init</code> 한 줄 — AI가 프로젝트를 훑고 초안을 만들어줍니다.</p>
         </div>
       </div>
       <div class="row">
@@ -404,7 +408,7 @@
         <div class="badge" style="background:var(--peach);border-color:var(--peach-deep);box-shadow:0 3px 0 var(--peach-deep)">2</div>
         <div>
           <h3>안 쓰는 세팅 수집하기</h3>
-          <p style="margin-bottom:0">플러그인과 MCP를 잔뜩 깔아두는 것 자체가 실력이 되지는 않습니다. 오히려 충돌하고 느려집니다. <b>지금 하는 작업에 쓰는 것만</b> 켜두고, 안 쓰면 지웁니다.</p>
+          <p style="margin-bottom:0">플러그인과 MCP를 잔뜩 깔아두는 것 자체가 실력이 되지는 않습니다. 오히려 충돌하고 느려집니다. <b>지금 하는 작업에 쓰는 것만</b> 켜두고, 안 쓰면 지웁니다. 특히 MCP는 <b>내 컴퓨터에서 실행되는 프로그램</b>이니, 출처가 믿을 만한 것만 연결합니다.</p>
         </div>
       </div>
       <div class="row">
@@ -430,21 +434,21 @@
         <div class="badge">1</div>
         <div>
           <h3>🔭 글로벌 깔기 (5분)</h3>
-          <p style="margin-bottom:0">카파시 플러그인 설치, 또는 <code>examples/1-global/CLAUDE.md</code>를 내 홈에 복사. → <code>exercises/01</code></p>
+          <p style="margin-bottom:0">카파시 플러그인 설치, 또는 <code>examples/1-global/CLAUDE.md</code>를 내 홈에 복사. → <a href="https://github.com/Imtylerrrrrr/harness-setup-gift/blob/master/exercises/01-글로벌-깔기.md"><code>exercises/01</code></a></p>
         </div>
       </div>
       <div class="row">
         <div class="badge">2</div>
         <div>
           <h3>📖 내 스킬 하나 만들기 (10분)</h3>
-          <p style="margin-bottom:0">내가 AI에게 두 번 이상 시켜본 일 하나를 SKILL.md로. 완벽하지 않아도 됩니다. → <code>exercises/02</code></p>
+          <p style="margin-bottom:0">내가 AI에게 두 번 이상 시켜본 일 하나를 SKILL.md로. 완벽하지 않아도 됩니다. → <a href="https://github.com/Imtylerrrrrr/harness-setup-gift/blob/master/exercises/02-내-스킬-만들기.md"><code>exercises/02</code></a></p>
         </div>
       </div>
       <div class="row">
         <div class="badge">3</div>
         <div>
           <h3>🔌 MCP 하나 붙여보기 (여유 있을 때)</h3>
-          <p style="margin-bottom:0">내 프로젝트 종류에 맞는 MCP 하나만. 욕심내지 않기. → <code>exercises/03</code></p>
+          <p style="margin-bottom:0">내 프로젝트 종류에 맞는 MCP 하나만. 욕심내지 않기. → <a href="https://github.com/Imtylerrrrrr/harness-setup-gift/blob/master/exercises/03-MCP-붙여보기.md"><code>exercises/03</code></a></p>
         </div>
       </div>
     </div>
@@ -486,7 +490,7 @@
         <p>같은 프로젝트를 여러 작업 공간으로 복제해 AI 여럿을 동시에 돌리는 기술.</p>
       </div>
     </div>
-    <p class="src" style="margin-top:22px">이 가이드 저장소: <code>examples/</code>(세팅 파일 실물) · <code>exercises/</code>(따라 하기 3편)<br>
+    <p class="src" style="margin-top:22px">이 가이드 저장소: <a href="https://github.com/Imtylerrrrrr/harness-setup-gift">github.com/Imtylerrrrrr/harness-setup-gift</a> — <code>examples/</code>(세팅 파일 실물) · <code>exercises/</code>(따라 하기 3편)<br>
     참고: Anthropic Claude Docs · andrej-karpathy-skills(GitHub) · Boris Cherny 인터뷰(2026.6) · Addy Osmani, "Loop Engineering"(2026.6)</p>
   </section>
 
